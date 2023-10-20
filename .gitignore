@@ -1,0 +1,32 @@
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore temporary files
+*~
+\#*\#
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+/build/
+/dist/
+/node_modules/
+
+# Ignore database files
+*.sqlite
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore output directories
+bytecode/
+unzip/
+manifest/
+dalvik/
+
+# Ignore input files
+*.apk
