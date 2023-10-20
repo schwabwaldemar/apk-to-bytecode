@@ -31,6 +31,7 @@ The command is d2j-dex2jar. Make sure you make it available like that via PATH v
 
 export PATH="$PATH:/Users/<user>/Library/Android/sdk/build-tools/34.0.0"
 export PATH="$PATH:/Users/<user>/Library/Android/sdk/cmdline-tools/latest/bin"
+export PATH="$PATH:/Users/<user>/Library/Android/sdk/platform-tools"
 export PATH="$PATH:/Users/<user>/Console/bin"
 ```
 
