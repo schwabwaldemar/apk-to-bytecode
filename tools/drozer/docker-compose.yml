@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  drozer:
+    image: fsecurelabs/drozer
+    container_name: drozer-container
+    tty: true
+    ports:
+      - "31415:31415"
+    command: /bin/bash
+    networks:
+      - drozer-net
+
+networks:
+  drozer-net:
+
+
