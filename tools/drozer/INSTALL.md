@@ -4,11 +4,14 @@ Follow these steps to connect Drozer to a virtual Android device. These instruct
 
 1. **Install Drozer APK on the Virtual Device:**
    - Start your virtual Android device.
+     ```bash
+     ~/Library/Android/sdk/emulator/emulator -list-avds
+     ~/Library/Android/sdk/emulator/emulator -avd Pixel_3a_API_34_extension_level_7_arm64-v8a
+     ```
    - Connect to the virtual device using ADB:
      ```bash
      adb start-server
      adb devices
-     /Users/<user>/Library/Android/sdk/emulator/emulator -avd Pixel_3a_API_34_extension_level_7_arm64-v8a
      ```
    - Download the Drozer Agent APK from:
      ```bash
